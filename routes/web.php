@@ -37,3 +37,9 @@ Route::get('saludar/{nombre}', function ($nombre) {
 Route::get('acercade', function(){
     return view('bienvenido');
 });
+Route::get('bootstrap', function(){
+    return view('bootstrap');
+});
+Route::get('solicitud', function(){
+    return view('solicitud');
+});
