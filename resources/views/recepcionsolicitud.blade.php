@@ -9,29 +9,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <title>Solicitud de material</title>
+    
   </head>
   <body>
+
     <div class="container">
-        <h1>Solicitud de material</h1>
+      <h1>Gracias</h1>
+      
+      
+    </div>
+    
 
-        <form action="{{ route('solicitud.recepcion') }}" method="post">
-            @csrf
-            <div class="form-group">
-                <label for="nombre_completo">Nombre Completo</label>
-                <input class="form-control" type="text" name=nombre_completo"" id="nombre_completo" placeholder="Coloca tu nombre completo">
-            </div>
-            <div class="form-group">
-                <label for="material">Material</label>
-                <input type="text" class="form-control" name="material" id="material" placeholder="Especifique el material">
-            </div>
-            <div class="form-group">
-                <label for="cantidad">Cantidad</label>
-                <input type="number" class="form-control" name="cantidad" id="cantidad" placeholder="Especifique la cantidad">
-            </div>
-            <button class="btn btn-primary">Solicitar</button>
-        </form>
-
-    </div>    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
